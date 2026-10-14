@@ -25,11 +25,13 @@ int contFuncionarios,i;
               imposto = salarioBruto * 0.25;
             else 
                imposto = salarioBruto * 0.30;
-               salarioliquido = salarioBruto - imposto;
-                 totalBruto = totalBruto + salarioBruto;
-                 totalLiquido = totalLiquido + salarioliquido;
-                totalImposto = totalImposto + imposto;
-            printf("O slário liquido do %iºFuncionário é de: (%2.f)\n"
+               
+            salarioliquido = salarioBruto - imposto;
+            totalBruto = totalBruto + salarioBruto;
+            totalLiquido = totalLiquido + salarioliquido;
+            totalImposto = totalImposto + imposto;
+            
+                 printf("O slário liquido do %iºFuncionário é de: (%2.f)\n"
                   ,i,salarioliquido);
             }
         
