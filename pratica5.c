@@ -23,8 +23,8 @@ int vetor[tamVet];
     {
           printf("\nDugite o %d° número: ",posicao);
            scanf("%d",&numero);
-            posVet = 0;
-            achou = 0;
+        posVet = 0;
+         achou = 0;
          
           while(posVet<tamVet && achou==0){
              if (numero==vetor[posVet])
