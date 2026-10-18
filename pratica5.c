@@ -1,14 +1,3 @@
-/*Faça um algoritmo que leia 50 números inteiros e armazene-os em um vetor.
- Na sequência, leia uma lista de 10 números inteiros e verifique se cada um deles está contido em alguma posição do vetor. 
- Em caso positivo, mostre a posição do vetor em que ele se encontra.
-
-
-Estrutura de dados: Um vetor de 50 posições de números inteiros.
-
-
-Comando de repetição: PARA (FOR), pois sabemos que leremos e processaremos 50 elementos. Logo, teremos uma solução com número fixo e conhecido de vezes.*/
-
-
 #include <stdio.h>
 
 int main (){
@@ -29,10 +18,10 @@ int vetor[tamVet];
     }
      printf("\nDigite o tamanho da lista: \n");
     scanf("%d",&tamLista);
-       
+       printf("\nDigite os números a serem encontrados: ");
      for(posicao = 1; posicao <= tamLista; posicao++)
     {
-          printf("\nDugite um número: ");
+          printf("\nDugite o %d° número: ",posicao);
            scanf("%d",&numero);
             posVet = 0;
             achou = 0;
